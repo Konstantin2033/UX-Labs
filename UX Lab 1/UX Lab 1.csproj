@@ -1,0 +1,100 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <RootNamespace>UX_Lab_1</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\Add.png" />
+    <None Remove="images\align\AlignBoth.png" />
+    <None Remove="images\align\AlignLeft.png" />
+    <None Remove="images\align\AlignRight.png" />
+    <None Remove="images\align\BulletList.png" />
+    <None Remove="images\align\IncreaseIndent.png" />
+    <None Remove="images\CloseDocument.png" />
+    <None Remove="images\Copy.png" />
+    <None Remove="images\Cut.png" />
+    <None Remove="images\Document.png" />
+    <None Remove="images\Edit.png" />
+    <None Remove="images\fonts\Bold.png" />
+    <None Remove="images\fonts\ColorDialog.png" />
+    <None Remove="images\fonts\ColorPalette.png" />
+    <None Remove="images\fonts\FontColor.png" />
+    <None Remove="images\fonts\Italic.png" />
+    <None Remove="images\fonts\Underline.png" />
+    <None Remove="images\HelpApplication.png" />
+    <None Remove="images\Home.png" />
+    <None Remove="images\insert\ApplicationAccess.png" />
+    <None Remove="images\insert\Image.png" />
+    <None Remove="images\insert\LineChart.png" />
+    <None Remove="images\insert\Rectangle.png" />
+    <None Remove="images\insert\Table.png" />
+    <None Remove="images\OpenFolder.png" />
+    <None Remove="images\Paste.png" />
+    <None Remove="images\Print.png" />
+    <None Remove="images\PrintDialog.png" />
+    <None Remove="images\Property.png" />
+    <None Remove="images\Redo.png" />
+    <None Remove="images\Save.png" />
+    <None Remove="images\SaveAll.png" />
+    <None Remove="images\Search.png" />
+    <None Remove="images\Undo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="{215d64d2-031c-33c7-96e3-61794cd1ee61}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>215d64d2-031c-33c7-96e3-61794cd1ee61</Guid>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="8.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\Add.png" />
+    <Resource Include="images\align\AlignBoth.png" />
+    <Resource Include="images\align\AlignLeft.png" />
+    <Resource Include="images\align\AlignRight.png" />
+    <Resource Include="images\align\BulletList.png" />
+    <Resource Include="images\align\IncreaseIndent.png" />
+    <Resource Include="images\CloseDocument.png" />
+    <Resource Include="images\Copy.png" />
+    <Resource Include="images\Cut.png" />
+    <Resource Include="images\Document.png" />
+    <Resource Include="images\Edit.png" />
+    <Resource Include="images\Print.png" />
+    <Resource Include="images\Save.png" />
+    <Resource Include="images\Search.png" />
+    <Resource Include="images\fonts\Bold.png" />
+    <Resource Include="images\fonts\ColorDialog.png" />
+    <Resource Include="images\fonts\ColorPalette.png" />
+    <Resource Include="images\fonts\FontColor.png" />
+    <Resource Include="images\fonts\Italic.png" />
+    <Resource Include="images\fonts\Underline.png" />
+    <Resource Include="images\HelpApplication.png" />
+    <Resource Include="images\Home.png" />
+    <Resource Include="images\insert\ApplicationAccess.png" />
+    <Resource Include="images\insert\Image.png" />
+    <Resource Include="images\insert\LineChart.png" />
+    <Resource Include="images\insert\Rectangle.png" />
+    <Resource Include="images\insert\Table.png" />
+    <Resource Include="images\OpenFolder.png" />
+    <Resource Include="images\Paste.png" />
+    <Resource Include="images\PrintDialog.png" />
+    <Resource Include="images\Property.png" />
+    <Resource Include="images\Redo.png" />
+    <Resource Include="images\SaveAll.png" />
+    <Resource Include="images\Undo.png" />
+  </ItemGroup>
+
+</Project>
